@@ -14,7 +14,7 @@ const searchForm = document.querySelector("form");
    
    )
         .done(function(response) {
-           console.log(response.hits);
+           console.log(response);
             displayrecipes(response.hits);
         }).fail(function() {
             console.log("error");
