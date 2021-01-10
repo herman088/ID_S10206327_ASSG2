@@ -1,15 +1,25 @@
+
+
+
+// set value for class form
 const searchForm = document.querySelector("form");
+
  let searchQuery = '';
  
  let eachfood = document.querySelector(".eachfood")
 
  let calorie =  document.querySelector(".Calorie")
 
+ //function upon submitting user query
   searchForm.addEventListener("submit", function(e){
   
+
+ //prevent default action of submitting 
   e.preventDefault();
   searchQuery = e.target.querySelector("input").value;
 
+
+//if else based on user query to set url
   if(calorie.value != null)
   {
    url = `https://api.edamam.com/search?q=${searchQuery}&app_id=93616471&app_key=00a798782e17b7f6a59dd7ed1b5656e9&from=0&to=20&calories=${calorie.value}`
@@ -22,6 +32,8 @@ const searchForm = document.querySelector("form");
 
 
   }
+
+  //using ajax to get data 
     $.ajax(url)
    
    
@@ -43,7 +55,7 @@ const searchForm = document.querySelector("form");
   
 });
 
-   
+// function to display results upon search
 function displayrecipes(results) {
   
   let addresults = "";
