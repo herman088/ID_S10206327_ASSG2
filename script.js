@@ -31,6 +31,15 @@ const searchForm = document.querySelector("form");
         }).fail(function() {
             console.log("error");
         });
+
+
+
+        $('.ALLcontainer').css({
+          'background-color':'darkkhaki',
+          'background-size':'contain',
+          'height':'100%'
+      }); 
+     
   
 });
 

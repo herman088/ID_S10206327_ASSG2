@@ -18,6 +18,7 @@
 
   
   margin-left:30px;
+  font-family: 'Oswald', sans-serif;
 }
 
 .form{
@@ -26,3 +27,16 @@ margin-top: 65px;
 
 }
 
+.ALLcontainer{
+
+ background-color:darkkhaki;
+ 
+ height:100vh;
+}
+
+
+.row{
+  font-size:35px;
+
+  font-family: 'Lobster', cursive;
+}
