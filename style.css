@@ -1,5 +1,5 @@
 
-
+/* display food results in grid format */
 .eachfood{
   margin-top: 50px;
 
@@ -8,7 +8,7 @@
   grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
 }
 
-
+/*setting fonts and positions for display results and form text*/
 .form,.eachfood{
 
   
@@ -16,20 +16,22 @@
   font-family: 'Oswald', sans-serif;
 }
 
+/* positioning for form */
 .form{
 
 margin-top: 65px;
 
 }
 
+/* setting properties of container */
 .ALLcontainer{
 
  background-color:darkkhaki;
- 
+ width:100vw;
  height:100vh;
 }
 
-
+/* setting font size and positioning of title*/
 .row{
   font-size:35px;
 
