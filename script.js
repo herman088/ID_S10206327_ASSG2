@@ -20,13 +20,13 @@ const searchForm = document.querySelector("form");
 
 
 //if else based on user query to set url
-  if(calorie.value != null)
+  if(calorie.value.length != 0)
   {
    url = `https://api.edamam.com/search?q=${searchQuery}&app_id=93616471&app_key=00a798782e17b7f6a59dd7ed1b5656e9&from=0&to=20&calories=${calorie.value}`
   }
   
 
-  if (calorie.value = ' '){
+  if (calorie.value.length == 0){
 
   url =  `https://api.edamam.com/search?q=${searchQuery}&app_id=93616471&app_key=00a798782e17b7f6a59dd7ed1b5656e9&from=0&to=100`
 
