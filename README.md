@@ -4,7 +4,7 @@
 
 This project's theme is under health and community and aims to create a food recipe for users based on user's search on food and filter what recipes they want such as food recipes with hight protein etc it also provides them with nutrition information on food .This project makes uses of edamam API and aims to help community live a healthier lifestyle
 
-
+##  Website Page : https://herman088.github.io/ID_S10206327_ASSG2/
 ## User Stories
 
 * As a user, i want the app to be intuitive and easy to use
@@ -23,6 +23,10 @@ This project's theme is under health and community and aims to create a food rec
 * Allows users to search for food based on calories per serving
 * Allows user to submit
 * Allows user to click on view recipe hyperlink to navigate to originate recipe site
+
+## Testing
+* Test Responsiveness with different browser or phone
+* Test query for calorie.Try submitting blank query,integer values or range of integer values
 
 
 ##  Design Process
