@@ -15,7 +15,7 @@ This project's theme is under health and community and aims to create a food rec
 * As a user i want food recipe apps to provide links to origina sources so i can view more information
 
 
-#### assignment checkpoint submitted to network folder with wireframe,recommitted again as git had problem,updated network folder also
+#### assignment checkpoint submitted to network folder with wireframe,recommitted again as git had problem,updated network folder also due to committed problems in vs code on 11/1/21
 
 
 ## Features
